@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
             panelButtons_FNS = new Panel();
             buttonHelp_FNS = new Button();
             buttonExecute_FNS = new Button();
-            buttonOpenFile_FNS = new Button();
             groupBoxTask_FNS = new GroupBox();
             textBoxTask_FNS = new TextBox();
             labelInput_FNS = new Label();
@@ -42,6 +42,7 @@
             textBoxOut_FNS = new TextBox();
             openFileDialogTask_FNS = new OpenFileDialog();
             toolTip_FNS = new ToolTip(components);
+            buttonOpenFile_FNS = new Button();
             panelButtons_FNS.SuspendLayout();
             groupBoxTask_FNS.SuspendLayout();
             SuspendLayout();
@@ -65,6 +66,7 @@
             // 
             buttonHelp_FNS.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             buttonHelp_FNS.FlatStyle = FlatStyle.Popup;
+            buttonHelp_FNS.Image = Properties.Resources.photo_2025_12_17_04_23_49;
             buttonHelp_FNS.Location = new Point(617, 2);
             buttonHelp_FNS.Margin = new Padding(3, 2, 3, 2);
             buttonHelp_FNS.Name = "buttonHelp_FNS";
@@ -78,6 +80,7 @@
             // 
             buttonExecute_FNS.Enabled = false;
             buttonExecute_FNS.FlatStyle = FlatStyle.Popup;
+            buttonExecute_FNS.Image = Properties.Resources.photo_2025_12_17_04_23_58;
             buttonExecute_FNS.Location = new Point(87, 2);
             buttonExecute_FNS.Margin = new Padding(3, 2, 3, 2);
             buttonExecute_FNS.Name = "buttonExecute_FNS";
@@ -86,18 +89,6 @@
             toolTip_FNS.SetToolTip(buttonExecute_FNS, "Выполнить");
             buttonExecute_FNS.UseVisualStyleBackColor = true;
             buttonExecute_FNS.Click += buttonExecute_GAE_Click;
-            // 
-            // buttonOpenFile_FNS
-            // 
-            buttonOpenFile_FNS.FlatStyle = FlatStyle.Popup;
-            buttonOpenFile_FNS.Location = new Point(3, 2);
-            buttonOpenFile_FNS.Margin = new Padding(3, 2, 3, 2);
-            buttonOpenFile_FNS.Name = "buttonOpenFile_FNS";
-            buttonOpenFile_FNS.Size = new Size(79, 52);
-            buttonOpenFile_FNS.TabIndex = 0;
-            toolTip_FNS.SetToolTip(buttonOpenFile_FNS, "Открыть файл\r\nВыберите нужный файл для обработки");
-            buttonOpenFile_FNS.UseVisualStyleBackColor = true;
-            buttonOpenFile_FNS.Click += buttonOpenFile_GAE_Click;
             // 
             // groupBoxTask_FNS
             // 
@@ -124,6 +115,7 @@
             textBoxTask_FNS.ReadOnly = true;
             textBoxTask_FNS.Size = new Size(673, 72);
             textBoxTask_FNS.TabIndex = 0;
+            textBoxTask_FNS.Text = resources.GetString("textBoxTask_FNS.Text");
             // 
             // labelInput_FNS
             // 
@@ -184,6 +176,19 @@
             toolTip_FNS.ToolTipIcon = ToolTipIcon.Info;
             toolTip_FNS.ToolTipTitle = "Подсказка";
             // 
+            // buttonOpenFile_FNS
+            // 
+            buttonOpenFile_FNS.FlatStyle = FlatStyle.Popup;
+            buttonOpenFile_FNS.Image = (Image)resources.GetObject("buttonOpenFile_FNS.Image");
+            buttonOpenFile_FNS.Location = new Point(3, 2);
+            buttonOpenFile_FNS.Margin = new Padding(3, 2, 3, 2);
+            buttonOpenFile_FNS.Name = "buttonOpenFile_FNS";
+            buttonOpenFile_FNS.Size = new Size(79, 52);
+            buttonOpenFile_FNS.TabIndex = 0;
+            toolTip_FNS.SetToolTip(buttonOpenFile_FNS, "Открыть файл\r\nВыберите нужный файл для обработки");
+            buttonOpenFile_FNS.UseVisualStyleBackColor = true;
+            buttonOpenFile_FNS.Click += buttonOpenFile_GAE_Click;
+            // 
             // FormMain
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -211,7 +216,6 @@
         #endregion
 
         private Panel panelButtons_FNS;
-        private Button buttonOpenFile_FNS;
         private Button buttonExecute_FNS;
         private Button buttonHelp_FNS;
         private GroupBox groupBoxTask_FNS;
@@ -223,5 +227,6 @@
         private TextBox textBoxOut_FNS;
         private OpenFileDialog openFileDialogTask_FNS;
         private ToolTip toolTip_FNS;
+        private Button buttonOpenFile_FNS;
     }
 }

@@ -73,6 +73,26 @@ namespace Tyuiu.FendelNS.Sprint6.Task6.V28.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap photo_2025_12_17_04_23_49 {
+            get {
+                object obj = ResourceManager.GetObject("photo_2025-12-17_04-23-49", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap photo_2025_12_17_04_23_58 {
+            get {
+                object obj = ResourceManager.GetObject("photo_2025-12-17_04-23-58", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap photo_2025_12_17_04_54_41 {
             get {
                 object obj = ResourceManager.GetObject("photo_2025-12-17_04-54-41", resourceCulture);

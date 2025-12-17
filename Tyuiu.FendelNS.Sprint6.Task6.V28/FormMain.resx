@@ -120,10 +120,36 @@
   <metadata name="toolTip_FNS.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>198, 17</value>
   </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="buttonOpenFile_FNS.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        /9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAQDAwQDAwQEAwQFBAQFBgoHBgYGBg0JCggKDw0QEA8NDw4R
+        ExgUERIXEg4PFRwVFxkZGxsbEBQdHx0aHxgaGxr/2wBDAQQFBQYFBgwHBwwaEQ8RGhoaGhoaGhoaGhoa
+        GhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhr/wAARCAA/AFoDASIAAhEBAxEB/8QA
+        HAAAAgMBAQEBAAAAAAAAAAAABQYAAwQBBwII/8QANxAAAAUCAQkHAgUFAAAAAAAAAAECAwQFEQYSExYh
+        UVRyc5IUIjM0NUGxMlIHQlNxkyM2YZGy/8QAGwEAAQUBAQAAAAAAAAAAAAAAAAEDBAUGAgf/xAAnEQAC
+        AgIBAwEJAAAAAAAAAAAAAQIDBBEhBRJBMQYTMjNhkaGxwf/aAAwDAQACEQMRAD8A/YmGiI6UjKIvEMGb
+        FsICMM+jt8xQMDpMCCCARNrao83skePnXCTlrM15JEQasthUtzekORg5PSQXP9iHbEfsFxeIZJXNyC3k
+        I90yBuaxLTXWyX2tlF/ZSyEeOZj2cRmjt0WLlxCti2CWLYQGaRU7fmP5SG6NJZlt5yO6h1G0lXEiFkJc
+        KS+424yXgtsWwhLFsIdEDhyZ5+qFI4DCGy8vNN6/yl8B8n+Sf5ZhAZ8JvhL4BsNjZhn0lPGoGQHwx6Qn
+        iUDNgghwKs3+4JXISGuwTq4/2erzjT9fZyyP3sKXrPGIywwvmHyhCiMj7oyOyc27mWmEPufYhpJnYfaK
+        PEzbRuME48abrNW0xHIbFLiSX0NkkkNqcMi/wVx5nBS32qT2y/7oxhuXgpTJlksjVSXsm/6CBuodUdp3
+        aTnQH2m3HSMjySsggvQ6hiCfDjSotIbzD7RON5TqfpPXtGil1CXJciM1GB2Vp947PkslIWRajLUNhhdL
+        6ji2Rm1tP67/AIUlmdi3bin+D00juRHtEE1WTkiDbcr1KxvZRO8lI5ZhDZ8FvhL4D5O8lI5ZhDZ8FvhL
+        4AINWGPSEcwwZAfDPpCeYoGAAQed4rnog4maOYS0xjbSZrJN9ZD0QZZFPjy1XkNIXxJEPNxll0+7b0SK
+        LXTLuQlaX0j73v4hlqmKqO7TJzecf70dwi/pe5pDudGg7s30jDWKJEXSJjbEVnOrYWSO77mQz1fs9XGy
+        MnN8NeESLc7dck14BmD6elzDVFWrvIOAz/yAdfw5Lw3hafmqk47DQo1sNKasbalKvclXFlA/EFNCo0Km
+        SMP1Z16IwhlS0NJsZpK1y1irEeNVYppC6TCoNVYekKIiW80kkl/oxvYSlFrfojL9sZQ43t7/AGemRzM4
+        7Rq+0hYK45KRHaJRZKskhYIc/iZaVpqCTKJ3kpHLMIbPgt8JfAfJ3kpHLMIbPgt8JfAbHBqwz6SnjUDI
+        TKRiJNMhEwtg1mSjP6hv0xZ3U+oADIIFvTJrdD6h3TNndD6gHSGMS1ytYLmmbO6H1Dh4za3U+oIwGHMN
+        /ppHSbQWtLaQu6ZtbqfUJpozuquoKhEkvQZh8hb0xZ3U+oTTFvdT6grEDs/yUjlmENnwW+EvgGpOLG34
+        7rXZjTlptfKAVhJ5lvV+UvgIB//Z
+</value>
+  </data>
+  <data name="textBoxTask_FNS.Text" xml:space="preserve">
+    <value>Дан файл InPutFileTask6V28.txt который может находится в любом месте на диске. Загрузить файл в textBoxIn через openFileDialog. Вывести предпоследнее слово каждой строки в результирующею строку и вывести ее в textBoxOut.</value>
+  </data>
   <metadata name="openFileDialogTask_FNS.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
-  </metadata>
-  <metadata name="toolTip_FNS.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>198, 17</value>
   </metadata>
 </root>
